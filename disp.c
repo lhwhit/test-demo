@@ -2,6 +2,7 @@
 #include <stdlib.h>
 int main()
 {
+
 	FILE *fp;
 	char c;
 	if ((fp=fopen("abc.txt","r"))==NULL) {
